@@ -1,5 +1,4 @@
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-const Webpack = require("webpack");
 const path = require("path");
 
 module.exports = {
@@ -14,11 +13,6 @@ module.exports = {
       title: "Tiny Solar System",
       filename: "index.html",
       template: "./src/html/index.html"
-    }),
-    new Webpack.DefinePlugin({
-      "process.env": {
-        "NODE_ENV": JSON.stringify(process.env.NODE_ENV)
-      }
     })
   ],
   module: {
