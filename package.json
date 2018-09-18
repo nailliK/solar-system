@@ -23,6 +23,7 @@
     "webpack-dev-server": "^3.1.8"
   },
   "scripts": {
-    "dev": "NODE_ENV=development webpack-dev-server"
+    "dev": "webpack-dev-server --mode development",
+    "prod": "webpack --mode production"
   }
 }
