@@ -1,0 +1,10 @@
+{
+  "name": "solarSystem",
+  "version": "0.0.1",
+  "description": "Tiny solar system simulation",
+  "main": "main.js",
+  "repository": "https://github.com/nailliK/solar-system.git",
+  "author": "Killian Louis Grant",
+  "license": "MIT",
+  "private": false
+}
